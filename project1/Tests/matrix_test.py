@@ -30,15 +30,41 @@ for l in matrix:
         print l.index(9)
     except:
         print "Not Found"
-"""
 
 m = np.array([[1,2,3],[4,5,6],[7,8,9]])
 print(m)
 print np.unravel_index(5, m.shape)
 
-
-m = np.array([[1,2,3,10],[4,5,6,11],[7,8,9,12]])
 print(m)
-print np.unravel_index(5, m.shape)
 
+#z = np.unravel_index(15, m.shape)
+z = np.where(m == 15)
+
+print(z)
+
+i,j = np.where(m == 0)
+x,y = np.where(m == 3)
+
+print i,j
+print x,y
+
+m[i,j] = 3
+m[x,y] = 0
+
+print("New Matrix After Swap:")
+print(m)
+"""
+
+m = np.array([[1,2,3],[4,5,6],[7,8,9]])
+i,j = np.where(m == 5)
+print "i,j : "
+print i,j
+print "i,j == (1,1):"
+print ((i,j) == (1,1))
+l = i.tolist(),j.tolist()
+joined = l[0] + l[1]
+print "joined:"
+print joined
+print "joined == [1 ,1]:"
+print joined == [1 , 1]
 
