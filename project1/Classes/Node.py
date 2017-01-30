@@ -1,29 +1,55 @@
 
 
+""" This is a Node in the Tree that holds information about a specific State of a puzzle; 
+        Including the path cost to the state, the state which it came from (parent node), 
+        and the current state of the puzzle (where the peices are on the board.)"""
 
 class Node:
 
-    def __init__(self, state, cost, parent = None):
+    def __init__(self, state, path_cost, cost_to_goal = None, parent = None):
         self.state = state
         self.parent = parent
-        self.path_cost = cost
+        self.path_cost = path_cost
+        self.cost_to_goal = cost_to_goal 
 
-    def child(self, problem, operator):
+    """ Create a new node in the tree given the current state of the puzzle and a move(operator). 
+        First we get the new state by calling the problem's evaluate function. Then we create a
+        new Node by giving it the new information. """
+    def make_move(self, problem, operator):
        new_state = problem.evaluate(self.state,operator)
-       return Node(new_state,self.path_cost+1,self)
+       new_cost = self.path_cost + problem.step_cost
+       return Node(new_state,new_cost,self)
 
+    """ Given a state of the puzzle, create all new nodes that result from all possible moves. """
     def explore(self, problem):
         children = []
         for operator in problem.get_operators(self.state):
-            print operator
-            print("Adding, ", self.child(problem,operator).state , "to the Children.")
-            children.append(self.child(problem,operator))
+            children.append(self.make_move(problem,operator))
         return children
 
+    def get_path_cost(self):
+        return self.path_cost
+
+    def get_MT_cost(self):
+        tile_number = 1
+        cost = 0
+        for row in self.state:
+            for column in row:
+                if column != tile_number and column != 0:
+                    cost+=1
+                tile_number += 1
+                if tile_number == self.state.size:
+                    tile_number = 0
+
+        return cost
+        
+    def get_MD_cost(self):
+        return 0
 
     def print_stats(self):
-        print "State: "
+        print "I Am: ", self , "Greetings from Memory!"
+        print "My State: "
         print self.state
-        print "Parent: ", self.parent
-        print "Path_Cost: ", self.path_cost
+        print "My Parent Is: ", self.parent
+        print "My Path_Cost Is: ", self.path_cost
 
