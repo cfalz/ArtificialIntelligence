@@ -55,7 +55,6 @@ class UniformCostSearch(Search):
     def get_path_cost(self, node):
         return node.path_cost
 
-
     def search(self):
         node = Node(self.problem.initial_state, 0) 
         self.container.append(node)
@@ -74,12 +73,39 @@ class UniformCostSearch(Search):
                     self.container.append(new_node)
 
 
-"""
 class AstarMisplacedTileSearch(Search):
     
-    def __init__( self, initial_state, goal_state, size ):
-            super(AstarMisplacedTileSearch, self).__init__(initial_state, goal_state)
+    def __init__( self, problem):
+            super(AstarMisplacedTileSearch, self).__init__(problem)
 
+    def get_node(self, state):
+        for node in container:
+            if node.state == state:
+                return node
+
+    def get_total_cost(self, node):
+        return node.total_cost_MT
+
+    def search(self):
+        node = Node(self.problem.initial_state, 0) 
+        self.container.append(node)
+        while self.container:
+            self.container = sorted(self.container, key = self.get_total_cost)
+            current_node = self.container.pop(0)
+            if np.array_equal(current_node.state,self.problem.goal_state):
+                return current_node
+            self.explored.append(current_node.state)
+            new_nodes = current_node.explore(self.problem)
+            for new_node in new_nodes:
+                if self.not_in_container(new_node.state) and self.not_in_explored(new_node.state): 
+                    self.container.append(new_node)
+                elif not self.not_in_container(new_node) and new_node.total_cost_MT < self.get_node(new_node.state).total_cost__MT:
+                    self.container.remove(self.get_node(new_node.state))
+                    self.container.append(new_node)
+
+
+
+"""
 class AstarManhattanDistanceSearch(Search):
 
     def __init__( self, initial_state, goal_state, size ):
