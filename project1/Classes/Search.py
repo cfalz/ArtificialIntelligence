@@ -105,13 +105,8 @@ class AstarManhattanDistanceSearch(Search):
     def __init__( self, problem ):
             super(AstarManhattanDistanceSearch, self).__init__(problem)
 
-    def get_node(self, state):
-        for node in container:
-            if node.state == state:
-                return node
-
     def get_total_cost(self, node):
-        return node.total_cost_MT
+        return node.total_cost_MD
 
     def search(self):
         node = Node(self.problem.initial_state, 0) 

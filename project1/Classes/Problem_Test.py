@@ -9,10 +9,10 @@ import time
 initial_state_8 = np.array([[1,2,3],[4,8,0],[7,6,5]])
 goal_state_8 = np.array([[1,2,3],[4,5,6],[7,8,0]])
 
-initial_state_15 = np.array([[1,2,3,10],[4,8,17,11],[7,6,5,12],[13,9,14,0]])
+initial_state_15 = np.array([[1,2,3,0],[5,6,7,4],[9,10,11,8],[13,14,15,12]])
 goal_state_15 = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,0]])
 
-puzzle = PuzzleProblem(initial_state_8, goal_state_8)
+puzzle = PuzzleProblem(initial_state_15, goal_state_15)
 
 def test_size():
     print("The Puzzle Size Is:")
