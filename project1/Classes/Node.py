@@ -1,4 +1,5 @@
 import copy
+import numpy as np
 
 """ This is a Node in the Tree that holds information about a specific State of a puzzle; 
         Including the path cost to the state, the state which it came from (parent node), 
@@ -6,12 +7,14 @@ import copy
 
 class Node:
 
-    def __init__(self, state, path_cost, cost_to_goal_MT = 0, parent = None):
+    def __init__(self, state, path_cost, cost_to_goal_MT = 0, cost_to_goal_MD = 0, parent = None):
         self.state = state
         self.parent = parent
         self.path_cost = path_cost
         self.cost_to_goal_MT = cost_to_goal_MT 
+        self.cost_to_goal_MD = cost_to_goal_MD 
         self.total_cost_MT = path_cost + cost_to_goal_MT
+        self.total_cost_MD = path_cost + cost_to_goal_MD
         self.path = []
 
     """ Create a new node in the tree given the current state of the puzzle and a move(operator). 
@@ -21,7 +24,8 @@ class Node:
        new_state = problem.evaluate(self.state,operator)
        new_path_cost = self.path_cost + problem.step_cost
        new_cost_to_goal_MT = self.get_MT_cost() 
-       new_node = Node(new_state,new_path_cost,new_cost_to_goal_MT,self)
+       new_cost_to_goal_MD = self.get_MD_cost(problem)
+       new_node = Node(new_state,new_path_cost,new_cost_to_goal_MT,new_cost_to_goal_MD,self)
        new_node.path = copy.deepcopy(self.path)
        new_node.path.append(operator)
        return new_node
@@ -49,8 +53,20 @@ class Node:
 
         return cost
         
-    def get_MD_cost(self):
-        return 0
+    def get_MD_cost(self, problem):
+        tile_number = 1
+        cost = 0
+        for row in self.state:
+            for column in row:
+                if column != tile_number and column != 0:
+                    x,y = np.where(self.state == column)
+                    i,j = np.where(problem.goal_state == column)
+                    cost += (abs(x-i) + abs(y-j)) 
+                tile_number += 1
+                if tile_number == self.state.size:
+                    tile_number = 0
+
+        return cost
 
     def print_stats(self):
         print "I Am: ", self , "Greetings from Memory!"

@@ -119,16 +119,36 @@ def AstarMisplacedTileSearch_test():
     print("[+] Printing the Moves to get to the Solution...")
     print(solution.path)
 
+def get_MD_cost_test():
+    print("[!] The Puzzle Goal State is: ")
+    print(puzzle.goal_state)
+    print("[!] The Node State is: ")
+    print(n.state)
+    print("[!] Calculating Misplaced Tile Cost of Node....")
+    print("[!] The Cost is: " , n.get_MD_cost(puzzle))
 
+def AstarManhattanDistanceSearch_test():
+    start_time = time.time()
+    searcher = AstarManhattanDistanceSearch(puzzle)
+    print("[!] Searching For Solution Using A* Manhattan Distance Hueristic....")
+    solution = searcher.search()
+    print("[+] Found Solution in ", time.time() - start_time, 's')
+    print("[+] Solution Was Found At Depth ", solution.path_cost)
+    print("[+] Printing the Found Puzzle Solution...")
+    print(solution.state)
+    print("[+] Printing the Moves to get to the Solution...")
+    print(solution.path)
     
 #evaluate_test()
 #node_child_test()
 #node_explore_test()
 #get_MT_cost_test()
-
-problem_states()
+#problem_states()
 UniformCostSearch_test()
 AstarMisplacedTileSearch_test()
+#get_MD_cost_test()
+AstarManhattanDistanceSearch_test()
+
 
 
 
