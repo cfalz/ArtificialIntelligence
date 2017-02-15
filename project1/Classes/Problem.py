@@ -32,7 +32,7 @@ class Problem(object):
         raise NotImplementedError
 
     def is_goal( self, state ):
-        return state == self.goal_state
+        return np.array_equal(state,self.goal_state)
 
 """ Sliding Puzzle Problem that allows a specified size to be passed in. """
 class PuzzleProblem(Problem):
@@ -153,3 +153,17 @@ class PuzzleProblem(Problem):
         return blank_index in self.corners
             
 
+    def inversions(self, state):
+        puzzle = state.flatten().tolist()
+        inversions = 0
+        for peice in puzzle:
+            if peice is not 0:
+                index = puzzle.index(peice)
+                for latter_peice in puzzle[index:]:
+                    if peice > latter_peice and latter_peice is not 0:
+                        inversions += 1
+        return inversions
+
+
+    def validate_initial_state(self, state):
+        return state.size%2 != self.inversions(state)%2

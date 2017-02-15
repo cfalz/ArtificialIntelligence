@@ -23,8 +23,8 @@ class Node:
     def make_move(self, problem, operator):
        new_state = problem.evaluate(self.state,operator)
        new_path_cost = self.path_cost + problem.step_cost
-       new_cost_to_goal_MT = self.get_MT_cost() 
-       new_cost_to_goal_MD = self.get_MD_cost(problem)
+       new_cost_to_goal_MT = self.get_MT_cost(new_state) 
+       new_cost_to_goal_MD = self.get_MD_cost(problem, new_state)
        new_node = Node(new_state,new_path_cost,new_cost_to_goal_MT,new_cost_to_goal_MD,self)
        new_node.path = copy.deepcopy(self.path)
        new_node.path.append(operator)
@@ -40,30 +40,30 @@ class Node:
     def get_path_cost(self):
         return self.path_cost
 
-    def get_MT_cost(self):
+    def get_MT_cost(self, state):
         tile_number = 1
         cost = 0
-        for row in self.state:
+        for row in state:
             for column in row:
                 if column != tile_number and column != 0:
                     cost+=1
                 tile_number += 1
-                if tile_number == self.state.size:
+                if tile_number == state.size:
                     tile_number = 0
 
         return cost
         
-    def get_MD_cost(self, problem):
+    def get_MD_cost(self, problem, state):
         tile_number = 1
         cost = 0
-        for row in self.state:
+        for row in state:
             for column in row:
                 if column != tile_number and column != 0:
-                    x,y = np.where(self.state == column)
+                    x,y = np.where(state == column)
                     i,j = np.where(problem.goal_state == column)
                     cost += (abs(x-i) + abs(y-j)) 
                 tile_number += 1
-                if tile_number == self.state.size:
+                if tile_number == state.size:
                     tile_number = 0
 
         return cost
@@ -72,6 +72,8 @@ class Node:
         print "I Am: ", self , "Greetings from Memory!"
         print "My State: "
         print self.state
-        print "My Parent Is: ", self.parent
         print "My Path_Cost Is: ", self.path_cost
-
+        print(self.cost_to_goal_MT) 
+        print(self.cost_to_goal_MD) 
+        print(self.total_cost_MT)
+        print(self.total_cost_MD)
