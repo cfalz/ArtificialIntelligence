@@ -1,9 +1,14 @@
 import copy
 import numpy as np
 
-""" This is a Node in the Tree that holds information about a specific State of a puzzle; 
-        Including the path cost to the state, the state which it came from (parent node), 
-        and the current state of the puzzle (where the peices are on the board.)"""
+
+###############################################################################################
+#                                                                                             #
+# This is a Node in the Tree that holds information about a specific State of a puzzle;       #
+#        Including the path cost to the state, the state which it came from (parent node),    #
+#        and the current state of the puzzle (where the peices are on the board.)"""          #
+#                                                                                             #
+###############################################################################################
 
 class Node:
 
