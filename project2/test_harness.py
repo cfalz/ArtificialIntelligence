@@ -1,4 +1,5 @@
 import sys
+from math import *
 import numpy as np
 import matplotlib as plt
 from scipy.spatial import distance
@@ -11,36 +12,41 @@ def process_data():
     data = []
     normalized_data = []
     filename = sys.argv[-1]
-    f = open(filename, 'r')
+    data_file = open(filename, 'r')
 
-    for line in f:
+    print " [!] Please Wait While I Normalize The Data... "
+    for line in data_file:
         data.append(line.split())
+    for l in data:
+        print "The Line in the Data is: "
+        print l
+        floats = []
+        for fp in l:
+            floats.append(float(fp))
+        normalized_data.append(floats)
+    return normalized_data
 
+"""
     for instance in data:
         classification = instance.pop(0)
         features = np.array(instance)
-        """ Reshape because this is only a single sample """
         features = features.reshape(1,-1)
         features_normalized = preprocessing.normalize(features, norm='l1')
         features_normalized = features_normalized.tolist()
         features_normalized.insert(0,classification)
         normalized_data.append(features_normalized)
     return normalized_data
-
+"""
 
 def main():
+
     data = process_data()
-    feature_set = [1]
+    print "[+] Done. "
+    print "[!] Beginning Search. \n"
     fs = ForwardSelection(data)
-    #fs.add_feature(feature_set)
-    new = np.array([0.02])
-    new = new.reshape(1,-1)
-    new = preprocessing.normalize(new, norm='l1')
-    print "[!] Classifing Unknown Instance: ", new
-    print fs.nearest_neighbor(new, feature_set)
-
-
-
+    print fs.leave_one_out([27,15,1])
+    #(best_set, accuracy) = fs.select()
+    #print "\n  [+] The Best Set Is ", best_set, " With An Accuracy Of " , accuracy*100 , "% .\n"
 
 if __name__ == "__main__":
     main()
