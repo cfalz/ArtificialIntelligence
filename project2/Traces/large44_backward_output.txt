@@ -1,0 +1,22 @@
+ [+] Welcome To Cody Falzone's Feature Selection.
+ [!] Type in the name of the file to test: 
+
+ 
+ [!] Type the number of the algorithm you want to run. 
+    1) Forward Selection
+    2) Backward Elimination
+    3) Cody's Special Algorithm
+
+
+ Using Filename:  cs_170_large44.txt .
+
+ [!] Please Wait While I Normalize The Data... 
+ [+] Done Normalizing Data. 
+
+ [+] The Data Set Has  40  features (not including the class attribute), with  1000  instances.
+ [!] Beginning Search Using Backward Elimination Algorithm. 
+
+Elasped Time:  30667.9025459
+
+ [+] The Best Set Is  [33]  With An Accuracy Of  84.0 % .
+

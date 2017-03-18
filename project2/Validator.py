@@ -14,7 +14,6 @@ class Validator(object):
         raise NotImplementedError
 
 
-
 class LeaveOneOut(Validator): 
     def __init__( self , classifier ):
         super(LeaveOneOut, self).__init__(classifier)
@@ -31,3 +30,7 @@ class LeaveOneOut(Validator):
                 correct+=1
             self.classifier.data.insert(i,unknown)
         return float(correct)/float(len(self.classifier.data))
+
+
+
+

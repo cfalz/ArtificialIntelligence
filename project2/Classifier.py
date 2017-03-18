@@ -44,3 +44,6 @@ class NearestNeighbor(Classifier):
                 min_distance = dist
                 classification = c
         return classification
+
+
+
