@@ -10,7 +10,7 @@ from Classifier import *
 from Validator import *
 
 PRINTDEBUG = 1
-output = open('small44_forward_output.txt', 'w')
+output = open('Large80_forward_output.txt', 'w')
 
 def greeting():
     print >> output, " [+] Welcome To Cody Falzone's Feature Selection." 

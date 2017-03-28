@@ -1,0 +1,910 @@
+ [+] Welcome To Cody Falzone's Feature Selection.
+ [!] Type in the name of the file to test: 
+
+ 
+ [!] Type the number of the algorithm you want to run. 
+    1) Forward Selection
+    2) Backward Elimination
+    3) Cody's Special Algorithm
+
+
+ Using Filename:  cs_170_large44.txt .
+
+ [!] Please Wait While I Normalize The Data... 
+ [+] Done Normalizing Data. 
+
+ [+] The Data Set Has  40  features (not including the class attribute), with  1000  instances.
+ [!] Beginning Search Using Forward Selection Algorithm. 
+
+Elasped Time:  21244.296742
+
+ [+] The Best Set Is  [19, 33]  With An Accuracy Of  96.2 % .
+
+  72.7 %.
+[!] Using Feature(s)  [14] Accuracy is  70.2 %.
+[!] Using Feature(s)  [15] Accuracy is  68.7 %.
+[!] Using Feature(s)  [16] Accuracy is  67.8 %.
+[!] Using Feature(s)  [17] Accuracy is  72.2 %.
+[!] Using Feature(s)  [18] Accuracy is  70.8 %.
+[!] Using Feature(s)  [19] Accuracy is  73.2 %.
+[!] Using Feature(s)  [20] Accuracy is  71.7 %.
+[!] Using Feature(s)  [21] Accuracy is  71.9 %.
+[!] Using Feature(s)  [22] Accuracy is  71.6 %.
+[!] Using Feature(s)  [23] Accuracy is  69.4 %.
+[!] Using Feature(s)  [24] Accuracy is  71.6 %.
+[!] Using Feature(s)  [25] Accuracy is  71.2 %.
+[!] Using Feature(s)  [26] Accuracy is  70.3 %.
+[!] Using Feature(s)  [27] Accuracy is  71.6 %.
+[!] Using Feature(s)  [28] Accuracy is  70.4 %.
+[!] Using Feature(s)  [29] Accuracy is  70.2 %.
+[!] Using Feature(s)  [30] Accuracy is  72.4 %.
+[!] Using Feature(s)  [31] Accuracy is  70.1 %.
+[!] Using Feature(s)  [32] Accuracy is  70.6 %.
+[!] Using Feature(s)  [33] Accuracy is  84.0 %.
+[!] Using Feature(s)  [34] Accuracy is  71.5 %.
+[!] Using Feature(s)  [35] Accuracy is  69.0 %.
+[!] Using Feature(s)  [36] Accuracy is  69.9 %.
+[!] Using Feature(s)  [37] Accuracy is  70.4 %.
+[!] Using Feature(s)  [38] Accuracy is  72.8 %.
+[!] Using Feature(s)  [39] Accuracy is  71.5 %.
+[!] Using Feature(s)  [40] Accuracy is  73.2 %.
+
+
+[!] Using Feature(s)  [1, 33] Accuracy is  81.6 %.
+[!] Using Feature(s)  [2, 33] Accuracy is  84.3 %.
+[!] Using Feature(s)  [3, 33] Accuracy is  83.8 %.
+[!] Using Feature(s)  [4, 33] Accuracy is  83.0 %.
+[!] Using Feature(s)  [5, 33] Accuracy is  83.1 %.
+[!] Using Feature(s)  [6, 33] Accuracy is  80.9 %.
+[!] Using Feature(s)  [7, 33] Accuracy is  83.4 %.
+[!] Using Feature(s)  [8, 33] Accuracy is  82.3 %.
+[!] Using Feature(s)  [9, 33] Accuracy is  85.1 %.
+[!] Using Feature(s)  [10, 33] Accuracy is  82.8 %.
+[!] Using Feature(s)  [11, 33] Accuracy is  81.9 %.
+[!] Using Feature(s)  [12, 33] Accuracy is  83.0 %.
+[!] Using Feature(s)  [13, 33] Accuracy is  80.7 %.
+[!] Using Feature(s)  [14, 33] Accuracy is  84.0 %.
+[!] Using Feature(s)  [15, 33] Accuracy is  83.1 %.
+[!] Using Feature(s)  [16, 33] Accuracy is  81.2 %.
+[!] Using Feature(s)  [17, 33] Accuracy is  83.6 %.
+[!] Using Feature(s)  [18, 33] Accuracy is  82.1 %.
+[!] Using Feature(s)  [19, 33] Accuracy is  96.2 %.
+[!] Using Feature(s)  [20, 33] Accuracy is  82.8 %.
+[!] Using Feature(s)  [21, 33] Accuracy is  83.4 %.
+[!] Using Feature(s)  [22, 33] Accuracy is  83.9 %.
+[!] Using Feature(s)  [23, 33] Accuracy is  83.6 %.
+[!] Using Feature(s)  [24, 33] Accuracy is  81.8 %.
+[!] Using Feature(s)  [25, 33] Accuracy is  81.4 %.
+[!] Using Feature(s)  [26, 33] Accuracy is  85.5 %.
+[!] Using Feature(s)  [27, 33] Accuracy is  83.6 %.
+[!] Using Feature(s)  [28, 33] Accuracy is  83.9 %.
+[!] Using Feature(s)  [29, 33] Accuracy is  83.7 %.
+[!] Using Feature(s)  [30, 33] Accuracy is  81.5 %.
+[!] Using Feature(s)  [31, 33] Accuracy is  82.5 %.
+[!] Using Feature(s)  [32, 33] Accuracy is  82.7 %.
+[!] Using Feature(s)  [33, 34] Accuracy is  83.4 %.
+[!] Using Feature(s)  [33, 35] Accuracy is  83.2 %.
+[!] Using Feature(s)  [33, 36] Accuracy is  83.9 %.
+[!] Using Feature(s)  [33, 37] Accuracy is  81.6 %.
+[!] Using Feature(s)  [33, 38] Accuracy is  82.6 %.
+[!] Using Feature(s)  [33, 39] Accuracy is  83.7 %.
+[!] Using Feature(s)  [33, 40] Accuracy is  83.7 %.
+
+
+[!] Using Feature(s)  [1, 19, 33] Accuracy is  92.9 %.
+[!] Using Feature(s)  [2, 19, 33] Accuracy is  93.4 %.
+[!] Using Feature(s)  [3, 19, 33] Accuracy is  92.7 %.
+[!] Using Feature(s)  [4, 19, 33] Accuracy is  95.4 %.
+[!] Using Feature(s)  [5, 19, 33] Accuracy is  93.2 %.
+[!] Using Feature(s)  [6, 19, 33] Accuracy is  93.0 %.
+[!] Using Feature(s)  [7, 19, 33] Accuracy is  93.3 %.
+[!] Using Feature(s)  [8, 19, 33] Accuracy is  93.6 %.
+[!] Using Feature(s)  [9, 19, 33] Accuracy is  93.8 %.
+[!] Using Feature(s)  [10, 19, 33] Accuracy is  92.6 %.
+[!] Using Feature(s)  [11, 19, 33] Accuracy is  92.3 %.
+[!] Using Feature(s)  [12, 19, 33] Accuracy is  92.3 %.
+[!] Using Feature(s)  [13, 19, 33] Accuracy is  91.9 %.
+[!] Using Feature(s)  [14, 19, 33] Accuracy is  92.5 %.
+[!] Using Feature(s)  [15, 19, 33] Accuracy is  92.8 %.
+[!] Using Feature(s)  [16, 19, 33] Accuracy is  94.0 %.
+[!] Using Feature(s)  [17, 19, 33] Accuracy is  92.4 %.
+[!] Using Feature(s)  [18, 19, 33] Accuracy is  92.5 %.
+[!] Using Feature(s)  [19, 20, 33] Accuracy is  93.1 %.
+[!] Using Feature(s)  [19, 21, 33] Accuracy is  94.0 %.
+[!] Using Feature(s)  [19, 22, 33] Accuracy is  94.2 %.
+[!] Using Feature(s)  [19, 23, 33] Accuracy is  94.5 %.
+[!] Using Feature(s)  [19, 24, 33] Accuracy is  92.7 %.
+[!] Using Feature(s)  [19, 25, 33] Accuracy is  91.8 %.
+[!] Using Feature(s)  [19, 26, 33] Accuracy is  92.7 %.
+[!] Using Feature(s)  [19, 27, 33] Accuracy is  94.0 %.
+[!] Using Feature(s)  [19, 28, 33] Accuracy is  94.3 %.
+[!] Using Feature(s)  [19, 29, 33] Accuracy is  92.1 %.
+[!] Using Feature(s)  [19, 30, 33] Accuracy is  93.1 %.
+[!] Using Feature(s)  [19, 31, 33] Accuracy is  92.9 %.
+[!] Using Feature(s)  [19, 32, 33] Accuracy is  93.9 %.
+[!] Using Feature(s)  [19, 33, 34] Accuracy is  92.7 %.
+[!] Using Feature(s)  [19, 33, 35] Accuracy is  93.1 %.
+[!] Using Feature(s)  [19, 33, 36] Accuracy is  93.9 %.
+[!] Using Feature(s)  [19, 33, 37] Accuracy is  91.6 %.
+[!] Using Feature(s)  [19, 33, 38] Accuracy is  93.9 %.
+[!] Using Feature(s)  [19, 33, 39] Accuracy is  92.0 %.
+[!] Using Feature(s)  [19, 33, 40] Accuracy is  93.8 %.
+
+
+[!] Using Feature(s)  [1, 4, 19, 33] Accuracy is  89.3 %.
+[!] Using Feature(s)  [2, 4, 19, 33] Accuracy is  91.1 %.
+[!] Using Feature(s)  [3, 4, 19, 33] Accuracy is  90.3 %.
+[!] Using Feature(s)  [4, 5, 19, 33] Accuracy is  89.6 %.
+[!] Using Feature(s)  [4, 6, 19, 33] Accuracy is  88.6 %.
+[!] Using Feature(s)  [4, 7, 19, 33] Accuracy is  89.6 %.
+[!] Using Feature(s)  [4, 8, 19, 33] Accuracy is  89.2 %.
+[!] Using Feature(s)  [4, 9, 19, 33] Accuracy is  89.6 %.
+[!] Using Feature(s)  [4, 10, 19, 33] Accuracy is  89.6 %.
+[!] Using Feature(s)  [4, 11, 19, 33] Accuracy is  89.7 %.
+[!] Using Feature(s)  [4, 12, 19, 33] Accuracy is  87.7 %.
+[!] Using Feature(s)  [4, 13, 19, 33] Accuracy is  90.4 %.
+[!] Using Feature(s)  [4, 14, 19, 33] Accuracy is  89.6 %.
+[!] Using Feature(s)  [4, 15, 19, 33] Accuracy is  89.2 %.
+[!] Using Feature(s)  [4, 16, 19, 33] Accuracy is  91.1 %.
+[!] Using Feature(s)  [4, 17, 19, 33] Accuracy is  88.8 %.
+[!] Using Feature(s)  [4, 18, 19, 33] Accuracy is  88.5 %.
+[!] Using Feature(s)  [4, 19, 20, 33] Accuracy is  89.1 %.
+[!] Using Feature(s)  [4, 19, 21, 33] Accuracy is  90.0 %.
+[!] Using Feature(s)  [4, 19, 22, 33] Accuracy is  91.9 %.
+[!] Using Feature(s)  [4, 19, 23, 33] Accuracy is  89.3 %.
+[!] Using Feature(s)  [4, 19, 24, 33] Accuracy is  87.6 %.
+[!] Using Feature(s)  [4, 19, 25, 33] Accuracy is  89.1 %.
+[!] Using Feature(s)  [4, 19, 26, 33] Accuracy is  92.1 %.
+[!] Using Feature(s)  [4, 19, 27, 33] Accuracy is  89.1 %.
+[!] Using Feature(s)  [4, 19, 28, 33] Accuracy is  92.0 %.
+[!] Using Feature(s)  [4, 19, 29, 33] Accuracy is  89.0 %.
+[!] Using Feature(s)  [4, 19, 30, 33] Accuracy is  90.2 %.
+[!] Using Feature(s)  [4, 19, 31, 33] Accuracy is  90.4 %.
+[!] Using Feature(s)  [4, 19, 32, 33] Accuracy is  89.6 %.
+[!] Using Feature(s)  [4, 19, 33, 34] Accuracy is  90.8 %.
+[!] Using Feature(s)  [4, 19, 33, 35] Accuracy is  90.5 %.
+[!] Using Feature(s)  [4, 19, 33, 36] Accuracy is  88.9 %.
+[!] Using Feature(s)  [4, 19, 33, 37] Accuracy is  88.9 %.
+[!] Using Feature(s)  [4, 19, 33, 38] Accuracy is  89.6 %.
+[!] Using Feature(s)  [4, 19, 33, 39] Accuracy is  90.5 %.
+[!] Using Feature(s)  [4, 19, 33, 40] Accuracy is  90.8 %.
+
+
+[!] Using Feature(s)  [1, 4, 19, 26, 33] Accuracy is  85.0 %.
+[!] Using Feature(s)  [2, 4, 19, 26, 33] Accuracy is  88.0 %.
+[!] Using Feature(s)  [3, 4, 19, 26, 33] Accuracy is  88.4 %.
+[!] Using Feature(s)  [4, 5, 19, 26, 33] Accuracy is  86.7 %.
+[!] Using Feature(s)  [4, 6, 19, 26, 33] Accuracy is  85.2 %.
+[!] Using Feature(s)  [4, 7, 19, 26, 33] Accuracy is  86.2 %.
+[!] Using Feature(s)  [4, 8, 19, 26, 33] Accuracy is  86.8 %.
+[!] Using Feature(s)  [4, 9, 19, 26, 33] Accuracy is  87.6 %.
+[!] Using Feature(s)  [4, 10, 19, 26, 33] Accuracy is  86.5 %.
+[!] Using Feature(s)  [4, 11, 19, 26, 33] Accuracy is  84.9 %.
+[!] Using Feature(s)  [4, 12, 19, 26, 33] Accuracy is  86.2 %.
+[!] Using Feature(s)  [4, 13, 19, 26, 33] Accuracy is  86.9 %.
+[!] Using Feature(s)  [4, 14, 19, 26, 33] Accuracy is  85.2 %.
+[!] Using Feature(s)  [4, 15, 19, 26, 33] Accuracy is  86.7 %.
+[!] Using Feature(s)  [4, 16, 19, 26, 33] Accuracy is  86.7 %.
+[!] Using Feature(s)  [4, 17, 19, 26, 33] Accuracy is  86.0 %.
+[!] Using Feature(s)  [4, 18, 19, 26, 33] Accuracy is  87.1 %.
+[!] Using Feature(s)  [4, 19, 20, 26, 33] Accuracy is  85.0 %.
+[!] Using Feature(s)  [4, 19, 21, 26, 33] Accuracy is  85.9 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33] Accuracy is  88.8 %.
+[!] Using Feature(s)  [4, 19, 23, 26, 33] Accuracy is  87.0 %.
+[!] Using Feature(s)  [4, 19, 24, 26, 33] Accuracy is  85.4 %.
+[!] Using Feature(s)  [4, 19, 25, 26, 33] Accuracy is  85.5 %.
+[!] Using Feature(s)  [4, 19, 26, 27, 33] Accuracy is  85.7 %.
+[!] Using Feature(s)  [4, 19, 26, 28, 33] Accuracy is  88.8 %.
+[!] Using Feature(s)  [4, 19, 26, 29, 33] Accuracy is  84.8 %.
+[!] Using Feature(s)  [4, 19, 26, 30, 33] Accuracy is  85.5 %.
+[!] Using Feature(s)  [4, 19, 26, 31, 33] Accuracy is  87.3 %.
+[!] Using Feature(s)  [4, 19, 26, 32, 33] Accuracy is  85.4 %.
+[!] Using Feature(s)  [4, 19, 26, 33, 34] Accuracy is  87.0 %.
+[!] Using Feature(s)  [4, 19, 26, 33, 35] Accuracy is  86.0 %.
+[!] Using Feature(s)  [4, 19, 26, 33, 36] Accuracy is  86.4 %.
+[!] Using Feature(s)  [4, 19, 26, 33, 37] Accuracy is  85.7 %.
+[!] Using Feature(s)  [4, 19, 26, 33, 38] Accuracy is  85.9 %.
+[!] Using Feature(s)  [4, 19, 26, 33, 39] Accuracy is  85.9 %.
+[!] Using Feature(s)  [4, 19, 26, 33, 40] Accuracy is  87.4 %.
+
+
+[!] Using Feature(s)  [1, 4, 19, 22, 26, 33] Accuracy is  83.6 %.
+[!] Using Feature(s)  [2, 4, 19, 22, 26, 33] Accuracy is  85.6 %.
+[!] Using Feature(s)  [3, 4, 19, 22, 26, 33] Accuracy is  84.0 %.
+[!] Using Feature(s)  [4, 5, 19, 22, 26, 33] Accuracy is  83.9 %.
+[!] Using Feature(s)  [4, 6, 19, 22, 26, 33] Accuracy is  84.6 %.
+[!] Using Feature(s)  [4, 7, 19, 22, 26, 33] Accuracy is  84.9 %.
+[!] Using Feature(s)  [4, 8, 19, 22, 26, 33] Accuracy is  85.4 %.
+[!] Using Feature(s)  [4, 9, 19, 22, 26, 33] Accuracy is  84.0 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33] Accuracy is  86.4 %.
+[!] Using Feature(s)  [4, 11, 19, 22, 26, 33] Accuracy is  83.2 %.
+[!] Using Feature(s)  [4, 12, 19, 22, 26, 33] Accuracy is  84.9 %.
+[!] Using Feature(s)  [4, 13, 19, 22, 26, 33] Accuracy is  84.8 %.
+[!] Using Feature(s)  [4, 14, 19, 22, 26, 33] Accuracy is  83.5 %.
+[!] Using Feature(s)  [4, 15, 19, 22, 26, 33] Accuracy is  86.0 %.
+[!] Using Feature(s)  [4, 16, 19, 22, 26, 33] Accuracy is  84.5 %.
+[!] Using Feature(s)  [4, 17, 19, 22, 26, 33] Accuracy is  83.7 %.
+[!] Using Feature(s)  [4, 18, 19, 22, 26, 33] Accuracy is  84.2 %.
+[!] Using Feature(s)  [4, 19, 20, 22, 26, 33] Accuracy is  83.4 %.
+[!] Using Feature(s)  [4, 19, 21, 22, 26, 33] Accuracy is  83.1 %.
+[!] Using Feature(s)  [4, 19, 22, 23, 26, 33] Accuracy is  84.8 %.
+[!] Using Feature(s)  [4, 19, 22, 24, 26, 33] Accuracy is  82.9 %.
+[!] Using Feature(s)  [4, 19, 22, 25, 26, 33] Accuracy is  83.6 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 27, 33] Accuracy is  83.5 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 28, 33] Accuracy is  86.4 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 29, 33] Accuracy is  82.6 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 30, 33] Accuracy is  85.0 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 31, 33] Accuracy is  85.4 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 32, 33] Accuracy is  83.6 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33, 34] Accuracy is  84.5 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33, 35] Accuracy is  85.9 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33, 36] Accuracy is  82.1 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33, 37] Accuracy is  83.2 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33, 38] Accuracy is  84.9 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33, 39] Accuracy is  85.5 %.
+[!] Using Feature(s)  [4, 19, 22, 26, 33, 40] Accuracy is  85.6 %.
+
+
+[!] Using Feature(s)  [1, 4, 10, 19, 22, 26, 33] Accuracy is  80.9 %.
+[!] Using Feature(s)  [2, 4, 10, 19, 22, 26, 33] Accuracy is  83.2 %.
+[!] Using Feature(s)  [3, 4, 10, 19, 22, 26, 33] Accuracy is  81.6 %.
+[!] Using Feature(s)  [4, 5, 10, 19, 22, 26, 33] Accuracy is  81.6 %.
+[!] Using Feature(s)  [4, 6, 10, 19, 22, 26, 33] Accuracy is  84.1 %.
+[!] Using Feature(s)  [4, 7, 10, 19, 22, 26, 33] Accuracy is  82.0 %.
+[!] Using Feature(s)  [4, 8, 10, 19, 22, 26, 33] Accuracy is  82.4 %.
+[!] Using Feature(s)  [4, 9, 10, 19, 22, 26, 33] Accuracy is  79.1 %.
+[!] Using Feature(s)  [4, 10, 11, 19, 22, 26, 33] Accuracy is  82.0 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33] Accuracy is  84.4 %.
+[!] Using Feature(s)  [4, 10, 13, 19, 22, 26, 33] Accuracy is  83.4 %.
+[!] Using Feature(s)  [4, 10, 14, 19, 22, 26, 33] Accuracy is  81.5 %.
+[!] Using Feature(s)  [4, 10, 15, 19, 22, 26, 33] Accuracy is  82.8 %.
+[!] Using Feature(s)  [4, 10, 16, 19, 22, 26, 33] Accuracy is  81.7 %.
+[!] Using Feature(s)  [4, 10, 17, 19, 22, 26, 33] Accuracy is  80.4 %.
+[!] Using Feature(s)  [4, 10, 18, 19, 22, 26, 33] Accuracy is  82.3 %.
+[!] Using Feature(s)  [4, 10, 19, 20, 22, 26, 33] Accuracy is  81.6 %.
+[!] Using Feature(s)  [4, 10, 19, 21, 22, 26, 33] Accuracy is  81.9 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 23, 26, 33] Accuracy is  81.7 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 24, 26, 33] Accuracy is  81.7 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 25, 26, 33] Accuracy is  81.8 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 27, 33] Accuracy is  84.2 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 28, 33] Accuracy is  83.6 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 29, 33] Accuracy is  81.3 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 30, 33] Accuracy is  81.7 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 31, 33] Accuracy is  83.3 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 32, 33] Accuracy is  82.5 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 34] Accuracy is  82.6 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 35] Accuracy is  84.8 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 36] Accuracy is  82.2 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 37] Accuracy is  79.8 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 38] Accuracy is  85.1 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 39] Accuracy is  81.8 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 40] Accuracy is  83.1 %.
+
+
+[!] Using Feature(s)  [1, 4, 10, 19, 22, 26, 33, 38] Accuracy is  80.8 %.
+[!] Using Feature(s)  [2, 4, 10, 19, 22, 26, 33, 38] Accuracy is  79.1 %.
+[!] Using Feature(s)  [3, 4, 10, 19, 22, 26, 33, 38] Accuracy is  80.1 %.
+[!] Using Feature(s)  [4, 5, 10, 19, 22, 26, 33, 38] Accuracy is  79.9 %.
+[!] Using Feature(s)  [4, 6, 10, 19, 22, 26, 33, 38] Accuracy is  81.2 %.
+[!] Using Feature(s)  [4, 7, 10, 19, 22, 26, 33, 38] Accuracy is  81.2 %.
+[!] Using Feature(s)  [4, 8, 10, 19, 22, 26, 33, 38] Accuracy is  79.7 %.
+[!] Using Feature(s)  [4, 9, 10, 19, 22, 26, 33, 38] Accuracy is  80.6 %.
+[!] Using Feature(s)  [4, 10, 11, 19, 22, 26, 33, 38] Accuracy is  80.1 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33, 38] Accuracy is  82.5 %.
+[!] Using Feature(s)  [4, 10, 13, 19, 22, 26, 33, 38] Accuracy is  80.2 %.
+[!] Using Feature(s)  [4, 10, 14, 19, 22, 26, 33, 38] Accuracy is  81.4 %.
+[!] Using Feature(s)  [4, 10, 15, 19, 22, 26, 33, 38] Accuracy is  81.0 %.
+[!] Using Feature(s)  [4, 10, 16, 19, 22, 26, 33, 38] Accuracy is  80.9 %.
+[!] Using Feature(s)  [4, 10, 17, 19, 22, 26, 33, 38] Accuracy is  79.4 %.
+[!] Using Feature(s)  [4, 10, 18, 19, 22, 26, 33, 38] Accuracy is  79.0 %.
+[!] Using Feature(s)  [4, 10, 19, 20, 22, 26, 33, 38] Accuracy is  79.8 %.
+[!] Using Feature(s)  [4, 10, 19, 21, 22, 26, 33, 38] Accuracy is  81.3 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 23, 26, 33, 38] Accuracy is  79.2 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 24, 26, 33, 38] Accuracy is  78.8 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 25, 26, 33, 38] Accuracy is  78.5 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 27, 33, 38] Accuracy is  81.0 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 28, 33, 38] Accuracy is  80.0 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 29, 33, 38] Accuracy is  80.4 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 30, 33, 38] Accuracy is  79.1 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 31, 33, 38] Accuracy is  81.2 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 32, 33, 38] Accuracy is  80.5 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 34, 38] Accuracy is  81.0 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 35, 38] Accuracy is  81.2 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 36, 38] Accuracy is  81.3 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 37, 38] Accuracy is  79.1 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 38, 39] Accuracy is  80.3 %.
+[!] Using Feature(s)  [4, 10, 19, 22, 26, 33, 38, 40] Accuracy is  80.6 %.
+
+
+[!] Using Feature(s)  [1, 4, 10, 12, 19, 22, 26, 33, 38] Accuracy is  78.5 %.
+[!] Using Feature(s)  [2, 4, 10, 12, 19, 22, 26, 33, 38] Accuracy is  78.8 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 33, 38] Accuracy is  80.5 %.
+[!] Using Feature(s)  [4, 5, 10, 12, 19, 22, 26, 33, 38] Accuracy is  79.6 %.
+[!] Using Feature(s)  [4, 6, 10, 12, 19, 22, 26, 33, 38] Accuracy is  79.9 %.
+[!] Using Feature(s)  [4, 7, 10, 12, 19, 22, 26, 33, 38] Accuracy is  79.2 %.
+[!] Using Feature(s)  [4, 8, 10, 12, 19, 22, 26, 33, 38] Accuracy is  78.3 %.
+[!] Using Feature(s)  [4, 9, 10, 12, 19, 22, 26, 33, 38] Accuracy is  79.0 %.
+[!] Using Feature(s)  [4, 10, 11, 12, 19, 22, 26, 33, 38] Accuracy is  76.2 %.
+[!] Using Feature(s)  [4, 10, 12, 13, 19, 22, 26, 33, 38] Accuracy is  78.8 %.
+[!] Using Feature(s)  [4, 10, 12, 14, 19, 22, 26, 33, 38] Accuracy is  79.6 %.
+[!] Using Feature(s)  [4, 10, 12, 15, 19, 22, 26, 33, 38] Accuracy is  78.1 %.
+[!] Using Feature(s)  [4, 10, 12, 16, 19, 22, 26, 33, 38] Accuracy is  78.0 %.
+[!] Using Feature(s)  [4, 10, 12, 17, 19, 22, 26, 33, 38] Accuracy is  77.5 %.
+[!] Using Feature(s)  [4, 10, 12, 18, 19, 22, 26, 33, 38] Accuracy is  78.7 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 20, 22, 26, 33, 38] Accuracy is  77.6 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 21, 22, 26, 33, 38] Accuracy is  79.2 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  77.9 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 24, 26, 33, 38] Accuracy is  77.5 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 25, 26, 33, 38] Accuracy is  77.4 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 27, 33, 38] Accuracy is  79.3 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 28, 33, 38] Accuracy is  77.8 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 29, 33, 38] Accuracy is  78.2 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 30, 33, 38] Accuracy is  76.3 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 31, 33, 38] Accuracy is  78.5 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 32, 33, 38] Accuracy is  78.3 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33, 34, 38] Accuracy is  78.2 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33, 35, 38] Accuracy is  78.4 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33, 36, 38] Accuracy is  78.2 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33, 37, 38] Accuracy is  75.4 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33, 38, 39] Accuracy is  78.2 %.
+[!] Using Feature(s)  [4, 10, 12, 19, 22, 26, 33, 38, 40] Accuracy is  77.5 %.
+
+
+[!] Using Feature(s)  [1, 3, 4, 10, 12, 19, 22, 26, 33, 38] Accuracy is  76.9 %.
+[!] Using Feature(s)  [2, 3, 4, 10, 12, 19, 22, 26, 33, 38] Accuracy is  77.2 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 26, 33, 38] Accuracy is  78.9 %.
+[!] Using Feature(s)  [3, 4, 6, 10, 12, 19, 22, 26, 33, 38] Accuracy is  79.2 %.
+[!] Using Feature(s)  [3, 4, 7, 10, 12, 19, 22, 26, 33, 38] Accuracy is  77.3 %.
+[!] Using Feature(s)  [3, 4, 8, 10, 12, 19, 22, 26, 33, 38] Accuracy is  76.7 %.
+[!] Using Feature(s)  [3, 4, 9, 10, 12, 19, 22, 26, 33, 38] Accuracy is  77.3 %.
+[!] Using Feature(s)  [3, 4, 10, 11, 12, 19, 22, 26, 33, 38] Accuracy is  76.5 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 13, 19, 22, 26, 33, 38] Accuracy is  76.7 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 14, 19, 22, 26, 33, 38] Accuracy is  77.4 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 15, 19, 22, 26, 33, 38] Accuracy is  78.3 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 16, 19, 22, 26, 33, 38] Accuracy is  76.2 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 17, 19, 22, 26, 33, 38] Accuracy is  76.3 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 18, 19, 22, 26, 33, 38] Accuracy is  76.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 20, 22, 26, 33, 38] Accuracy is  77.3 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 21, 22, 26, 33, 38] Accuracy is  77.2 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  79.4 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 24, 26, 33, 38] Accuracy is  76.4 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 25, 26, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 27, 33, 38] Accuracy is  77.3 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 28, 33, 38] Accuracy is  77.6 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 29, 33, 38] Accuracy is  78.6 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 30, 33, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 31, 33, 38] Accuracy is  77.3 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 32, 33, 38] Accuracy is  77.3 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 33, 34, 38] Accuracy is  75.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 33, 35, 38] Accuracy is  77.5 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 33, 36, 38] Accuracy is  77.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 33, 37, 38] Accuracy is  75.2 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 33, 38, 39] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 26, 33, 38, 40] Accuracy is  77.7 %.
+
+
+[!] Using Feature(s)  [1, 3, 4, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  76.7 %.
+[!] Using Feature(s)  [2, 3, 4, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  76.2 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  77.8 %.
+[!] Using Feature(s)  [3, 4, 6, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 7, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  76.5 %.
+[!] Using Feature(s)  [3, 4, 8, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  75.0 %.
+[!] Using Feature(s)  [3, 4, 9, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  77.2 %.
+[!] Using Feature(s)  [3, 4, 10, 11, 12, 19, 22, 23, 26, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 13, 19, 22, 23, 26, 33, 38] Accuracy is  76.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 14, 19, 22, 23, 26, 33, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 15, 19, 22, 23, 26, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 16, 19, 22, 23, 26, 33, 38] Accuracy is  76.4 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 17, 19, 22, 23, 26, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 18, 19, 22, 23, 26, 33, 38] Accuracy is  75.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  77.2 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 21, 22, 23, 26, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 24, 26, 33, 38] Accuracy is  75.2 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 25, 26, 33, 38] Accuracy is  77.1 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 27, 33, 38] Accuracy is  73.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 28, 33, 38] Accuracy is  75.9 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 29, 33, 38] Accuracy is  77.4 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 30, 33, 38] Accuracy is  75.7 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 31, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 32, 33, 38] Accuracy is  76.7 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 33, 34, 38] Accuracy is  77.6 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 33, 35, 38] Accuracy is  75.8 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 33, 36, 38] Accuracy is  77.7 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 33, 37, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 33, 38, 39] Accuracy is  75.2 %.
+[!] Using Feature(s)  [3, 4, 10, 12, 19, 22, 23, 26, 33, 38, 40] Accuracy is  76.8 %.
+
+
+[!] Using Feature(s)  [1, 3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  75.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  75.7 %.
+[!] Using Feature(s)  [3, 4, 5, 7, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  75.9 %.
+[!] Using Feature(s)  [3, 4, 5, 8, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  76.3 %.
+[!] Using Feature(s)  [3, 4, 5, 9, 10, 12, 19, 22, 23, 26, 33, 38] Accuracy is  77.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 11, 12, 19, 22, 23, 26, 33, 38] Accuracy is  75.2 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 13, 19, 22, 23, 26, 33, 38] Accuracy is  77.0 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 14, 19, 22, 23, 26, 33, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 15, 19, 22, 23, 26, 33, 38] Accuracy is  77.0 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 16, 19, 22, 23, 26, 33, 38] Accuracy is  77.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 17, 19, 22, 23, 26, 33, 38] Accuracy is  75.7 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 18, 19, 22, 23, 26, 33, 38] Accuracy is  75.2 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  77.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 21, 22, 23, 26, 33, 38] Accuracy is  75.3 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 24, 26, 33, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 25, 26, 33, 38] Accuracy is  76.6 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 27, 33, 38] Accuracy is  75.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 28, 33, 38] Accuracy is  75.5 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 29, 33, 38] Accuracy is  76.7 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 30, 33, 38] Accuracy is  75.6 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 31, 33, 38] Accuracy is  77.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 32, 33, 38] Accuracy is  77.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 34, 38] Accuracy is  75.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 35, 38] Accuracy is  76.6 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 36, 38] Accuracy is  76.3 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 37, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 38, 39] Accuracy is  75.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 22, 23, 26, 33, 38, 40] Accuracy is  74.5 %.
+
+
+[!] Using Feature(s)  [1, 3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  75.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [3, 4, 5, 7, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  76.5 %.
+[!] Using Feature(s)  [3, 4, 5, 8, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  76.6 %.
+[!] Using Feature(s)  [3, 4, 5, 9, 10, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  75.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 11, 12, 19, 20, 22, 23, 26, 33, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 13, 19, 20, 22, 23, 26, 33, 38] Accuracy is  76.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 14, 19, 20, 22, 23, 26, 33, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 15, 19, 20, 22, 23, 26, 33, 38] Accuracy is  75.5 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 16, 19, 20, 22, 23, 26, 33, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 17, 19, 20, 22, 23, 26, 33, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 18, 19, 20, 22, 23, 26, 33, 38] Accuracy is  75.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 21, 22, 23, 26, 33, 38] Accuracy is  75.0 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 24, 26, 33, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 25, 26, 33, 38] Accuracy is  76.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 27, 33, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 28, 33, 38] Accuracy is  74.3 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 29, 33, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 30, 33, 38] Accuracy is  74.7 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 31, 33, 38] Accuracy is  75.0 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  77.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 34, 38] Accuracy is  75.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 35, 38] Accuracy is  75.6 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 36, 38] Accuracy is  76.3 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 37, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 38, 39] Accuracy is  74.2 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 33, 38, 40] Accuracy is  74.1 %.
+
+
+[!] Using Feature(s)  [1, 3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  76.9 %.
+[!] Using Feature(s)  [3, 4, 5, 7, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  76.7 %.
+[!] Using Feature(s)  [3, 4, 5, 8, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.9 %.
+[!] Using Feature(s)  [3, 4, 5, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 11, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 13, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 14, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 15, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.9 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 16, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 18, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 21, 22, 23, 26, 32, 33, 38] Accuracy is  76.4 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 24, 26, 32, 33, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 25, 26, 32, 33, 38] Accuracy is  75.6 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 27, 32, 33, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 28, 32, 33, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 29, 32, 33, 38] Accuracy is  75.3 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 30, 32, 33, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 31, 32, 33, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 34, 38] Accuracy is  75.5 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  76.2 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 36, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 37, 38] Accuracy is  75.1 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38, 39] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 5, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38, 40] Accuracy is  73.1 %.
+
+
+[!] Using Feature(s)  [1, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.7 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 7, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  75.6 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 8, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 11, 12, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 13, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  73.9 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 14, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 15, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 16, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  74.7 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 18, 19, 20, 22, 23, 26, 32, 33, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 21, 22, 23, 26, 32, 33, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 24, 26, 32, 33, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 25, 26, 32, 33, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 27, 32, 33, 38] Accuracy is  73.9 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 28, 32, 33, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 29, 32, 33, 38] Accuracy is  75.5 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 30, 32, 33, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 31, 32, 33, 38] Accuracy is  73.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 34, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  76.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 36, 38] Accuracy is  75.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 37, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38, 39] Accuracy is  74.9 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 38, 40] Accuracy is  73.8 %.
+
+
+[!] Using Feature(s)  [1, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  76.2 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 7, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 8, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 11, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 13, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.3 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 14, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 15, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 16, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.7 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 18, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 21, 22, 23, 26, 32, 33, 35, 38] Accuracy is  75.2 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 24, 26, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 25, 26, 32, 33, 35, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 27, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 28, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 30, 32, 33, 35, 38] Accuracy is  72.1 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 31, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 34, 35, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 36, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 37, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38, 39] Accuracy is  74.1 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38, 40] Accuracy is  73.5 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 7, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 8, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 11, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 13, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 14, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 15, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 16, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.3 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 18, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 21, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 24, 26, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 25, 26, 32, 33, 35, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 27, 32, 33, 35, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 28, 32, 33, 35, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 30, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 31, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 34, 35, 38] Accuracy is  72.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 36, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 37, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38, 39] Accuracy is  72.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38, 40] Accuracy is  74.7 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 7, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  71.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 8, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 11, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.3 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 13, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 14, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 16, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 18, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 21, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 24, 26, 32, 33, 35, 38] Accuracy is  70.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 25, 26, 32, 33, 35, 38] Accuracy is  72.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 27, 32, 33, 35, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 28, 32, 33, 35, 38] Accuracy is  72.3 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 30, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 31, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 34, 35, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 36, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 37, 38] Accuracy is  72.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38, 39] Accuracy is  72.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 19, 20, 22, 23, 26, 32, 33, 35, 38, 40] Accuracy is  72.6 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 7, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  71.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 8, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.3 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 11, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 13, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 14, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  74.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 16, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 18, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 21, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 24, 26, 32, 33, 35, 38] Accuracy is  72.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 25, 26, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 27, 32, 33, 35, 38] Accuracy is  72.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 28, 32, 33, 35, 38] Accuracy is  72.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 30, 32, 33, 35, 38] Accuracy is  72.3 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 31, 32, 33, 35, 38] Accuracy is  72.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 34, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 36, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 37, 38] Accuracy is  73.3 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38, 39] Accuracy is  72.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38, 40] Accuracy is  72.4 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 11, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 13, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 14, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 16, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 18, 19, 20, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 24, 26, 32, 33, 35, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 25, 26, 32, 33, 35, 38] Accuracy is  72.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 27, 32, 33, 35, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 28, 32, 33, 35, 38] Accuracy is  71.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 30, 32, 33, 35, 38] Accuracy is  71.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 31, 32, 33, 35, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 34, 35, 38] Accuracy is  72.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 36, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 37, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38, 39] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 32, 33, 35, 38, 40] Accuracy is  73.5 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 11, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 13, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 14, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 16, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 18, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 24, 26, 29, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 25, 26, 29, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 27, 29, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 28, 29, 32, 33, 35, 38] Accuracy is  71.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 30, 32, 33, 35, 38] Accuracy is  73.0 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 31, 32, 33, 35, 38] Accuracy is  72.8 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 34, 35, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 36, 38] Accuracy is  72.3 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38, 39] Accuracy is  73.1 %.
+[!] Using Feature(s)  [2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38, 40] Accuracy is  73.5 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  71.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 13, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 14, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 16, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 18, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 24, 26, 29, 32, 33, 35, 38] Accuracy is  71.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 25, 26, 29, 32, 33, 35, 38] Accuracy is  72.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 27, 29, 32, 33, 35, 38] Accuracy is  71.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 28, 29, 32, 33, 35, 38] Accuracy is  72.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 30, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 31, 32, 33, 35, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 34, 35, 38] Accuracy is  72.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 36, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38, 39] Accuracy is  73.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 22, 23, 26, 29, 32, 33, 35, 38, 40] Accuracy is  73.3 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 8, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 14, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 24, 26, 29, 32, 33, 35, 38] Accuracy is  72.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 32, 33, 35, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 27, 29, 32, 33, 35, 38] Accuracy is  71.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 28, 29, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 30, 32, 33, 35, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 38] Accuracy is  73.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 36, 38] Accuracy is  71.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38, 39] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38, 40] Accuracy is  71.9 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  72.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  73.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38] Accuracy is  74.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 24, 26, 29, 32, 33, 35, 38] Accuracy is  72.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 32, 33, 35, 38] Accuracy is  74.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 27, 29, 32, 33, 35, 38] Accuracy is  72.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 28, 29, 32, 33, 35, 38] Accuracy is  72.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 30, 32, 33, 35, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 35, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 36, 38] Accuracy is  72.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38, 39] Accuracy is  73.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 38, 40] Accuracy is  73.7 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  72.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  73.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 24, 26, 29, 32, 33, 35, 37, 38] Accuracy is  71.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 32, 33, 35, 37, 38] Accuracy is  73.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 27, 29, 32, 33, 35, 37, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 28, 29, 32, 33, 35, 37, 38] Accuracy is  73.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 30, 32, 33, 35, 37, 38] Accuracy is  74.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 35, 37, 38] Accuracy is  74.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 36, 37, 38] Accuracy is  72.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38, 39] Accuracy is  73.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 35, 37, 38, 40] Accuracy is  73.6 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  73.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  74.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  74.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  74.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 24, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  72.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 32, 33, 34, 35, 37, 38] Accuracy is  74.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 27, 29, 32, 33, 34, 35, 37, 38] Accuracy is  72.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 28, 29, 32, 33, 34, 35, 37, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 30, 32, 33, 34, 35, 37, 38] Accuracy is  73.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  74.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 36, 37, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38, 39] Accuracy is  72.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.4 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 24, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 28, 29, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 30, 31, 32, 33, 34, 35, 37, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 36, 37, 38] Accuracy is  73.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 39] Accuracy is  71.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.6 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 18, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 24, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  73.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  71.5 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  75.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 18, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 24, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  72.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  72.4 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  74.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  72.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  73.1 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.4 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 18, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  73.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  72.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  71.6 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  72.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  71.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  71.7 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  69.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  69.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  71.7 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  69.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  69.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  70.9 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.5 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.7 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  70.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  71.5 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.3 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  71.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  70.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  70.8 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.8 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 40] Accuracy is  70.6 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  72.0 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40] Accuracy is  71.9 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  70.1 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40] Accuracy is  70.2 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40] Accuracy is  72.4 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40] Accuracy is  70.9 %.
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40] Accuracy is  71.2 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40] Accuracy is  69.1 %.
+
+

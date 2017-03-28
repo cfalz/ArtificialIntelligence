@@ -1,0 +1,97 @@
+ [+] Welcome To Cody Falzone's Feature Selection.
+ [!] Type in the name of the file to test: 
+
+ 
+ [!] Type the number of the algorithm you want to run. 
+    1) Forward Selection
+    2) Backward Elimination
+    3) Cody's Special Algorithm
+
+
+ Using Filename:  Traces/cs_170_small80.txt .
+
+ [!] Please Wait While I Normalize The Data... 
+ [+] Done Normalizing Data. 
+
+ [+] The Data Set Has  10  features (not including the class attribute), with  100  instances.
+ [!] Beginning Search Using Forward Selection Algorithm. 
+
+Elasped Time:  14.284580946
+
+ [+] The Best Set Is  [3, 5]  With An Accuracy Of  92.0 % .
+
+[!] Using Feature(s)  [1] Accuracy is  57.0 %.
+[!] Using Feature(s)  [2] Accuracy is  54.0 %.
+[!] Using Feature(s)  [3] Accuracy is  68.0 %.
+[!] Using Feature(s)  [4] Accuracy is  65.0 %.
+[!] Using Feature(s)  [5] Accuracy is  75.0 %.
+[!] Using Feature(s)  [6] Accuracy is  61.0 %.
+[!] Using Feature(s)  [7] Accuracy is  62.0 %.
+[!] Using Feature(s)  [8] Accuracy is  60.0 %.
+[!] Using Feature(s)  [9] Accuracy is  66.0 %.
+[!] Using Feature(s)  [10] Accuracy is  64.0 %.
+
+
+[!] Using Feature(s)  [1, 5] Accuracy is  76.0 %.
+[!] Using Feature(s)  [2, 5] Accuracy is  80.0 %.
+[!] Using Feature(s)  [3, 5] Accuracy is  92.0 %.
+[!] Using Feature(s)  [4, 5] Accuracy is  75.0 %.
+[!] Using Feature(s)  [5, 6] Accuracy is  79.0 %.
+[!] Using Feature(s)  [5, 7] Accuracy is  80.0 %.
+[!] Using Feature(s)  [5, 8] Accuracy is  77.0 %.
+[!] Using Feature(s)  [5, 9] Accuracy is  73.0 %.
+[!] Using Feature(s)  [5, 10] Accuracy is  83.0 %.
+
+
+[!] Using Feature(s)  [1, 3, 5] Accuracy is  84.0 %.
+[!] Using Feature(s)  [2, 3, 5] Accuracy is  79.0 %.
+[!] Using Feature(s)  [3, 4, 5] Accuracy is  84.0 %.
+[!] Using Feature(s)  [3, 5, 6] Accuracy is  82.0 %.
+[!] Using Feature(s)  [3, 5, 7] Accuracy is  89.0 %.
+[!] Using Feature(s)  [3, 5, 8] Accuracy is  79.0 %.
+[!] Using Feature(s)  [3, 5, 9] Accuracy is  83.0 %.
+[!] Using Feature(s)  [3, 5, 10] Accuracy is  87.0 %.
+
+
+[!] Using Feature(s)  [1, 3, 5, 7] Accuracy is  87.0 %.
+[!] Using Feature(s)  [2, 3, 5, 7] Accuracy is  81.0 %.
+[!] Using Feature(s)  [3, 4, 5, 7] Accuracy is  79.0 %.
+[!] Using Feature(s)  [3, 5, 6, 7] Accuracy is  88.0 %.
+[!] Using Feature(s)  [3, 5, 7, 8] Accuracy is  81.0 %.
+[!] Using Feature(s)  [3, 5, 7, 9] Accuracy is  83.0 %.
+[!] Using Feature(s)  [3, 5, 7, 10] Accuracy is  84.0 %.
+
+
+[!] Using Feature(s)  [1, 3, 5, 6, 7] Accuracy is  86.0 %.
+[!] Using Feature(s)  [2, 3, 5, 6, 7] Accuracy is  83.0 %.
+[!] Using Feature(s)  [3, 4, 5, 6, 7] Accuracy is  82.0 %.
+[!] Using Feature(s)  [3, 5, 6, 7, 8] Accuracy is  79.0 %.
+[!] Using Feature(s)  [3, 5, 6, 7, 9] Accuracy is  74.0 %.
+[!] Using Feature(s)  [3, 5, 6, 7, 10] Accuracy is  80.0 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 5, 6, 7] Accuracy is  73.0 %.
+[!] Using Feature(s)  [1, 3, 4, 5, 6, 7] Accuracy is  73.0 %.
+[!] Using Feature(s)  [1, 3, 5, 6, 7, 8] Accuracy is  77.0 %.
+[!] Using Feature(s)  [1, 3, 5, 6, 7, 9] Accuracy is  70.0 %.
+[!] Using Feature(s)  [1, 3, 5, 6, 7, 10] Accuracy is  73.0 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 5, 6, 7, 8] Accuracy is  69.0 %.
+[!] Using Feature(s)  [1, 3, 4, 5, 6, 7, 8] Accuracy is  73.0 %.
+[!] Using Feature(s)  [1, 3, 5, 6, 7, 8, 9] Accuracy is  71.0 %.
+[!] Using Feature(s)  [1, 3, 5, 6, 7, 8, 10] Accuracy is  69.0 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8] Accuracy is  67.0 %.
+[!] Using Feature(s)  [1, 3, 4, 5, 6, 7, 8, 9] Accuracy is  65.0 %.
+[!] Using Feature(s)  [1, 3, 4, 5, 6, 7, 8, 10] Accuracy is  70.0 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 10] Accuracy is  67.0 %.
+[!] Using Feature(s)  [1, 3, 4, 5, 6, 7, 8, 9, 10] Accuracy is  62.0 %.
+
+
+[!] Using Feature(s)  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] Accuracy is  68.0 %.
+
+
