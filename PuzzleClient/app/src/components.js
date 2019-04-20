@@ -52,7 +52,8 @@ class Puzzle extends React.Component {
         }
       ],
       stepNumber: 0,
-      xIsNext: true
+      xIsNext: true,
+      counter: 0
     };
   }
 
@@ -63,7 +64,8 @@ class Puzzle extends React.Component {
     if (squares[i]) {
       return;
     }
-    squares[i] = this.state.xIsNext ? "X" : "O";
+    this.setState({counter: this.state.counter + 1})
+    squares[i] = this.state.counter;
     this.setState({
       history: history.concat([
         {
@@ -78,7 +80,9 @@ class Puzzle extends React.Component {
   jumpTo(step) {
     this.setState({
       stepNumber: step,
-      xIsNext: (step % 2) === 0
+      xIsNext: (step % 2) === 0,
+      counter: step
+
     });
   }
 
