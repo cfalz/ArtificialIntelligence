@@ -54,6 +54,7 @@ def index():
         return json.dumps(solution, cls=CustomEncoder)
     except Exception as e:
         print("Failed with request: ", request.json, ", Threw exception :", e)
+        return e
 
 
 if __name__ == '__main__':

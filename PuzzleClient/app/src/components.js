@@ -77,7 +77,7 @@ class Puzzle extends React.Component {
     const current = history[history.length - 1];
     const squares = current.squares.slice();
     this.setState({display: false});
-    if (squares[i]) {
+    if (squares[i] || squares[i] === 0) {
       return;
     }
     this.setState({counter: this.state.counter + 1})
@@ -90,6 +90,7 @@ class Puzzle extends React.Component {
       ]),
       stepNumber: history.length,
     });
+    this.setState({moves: []})
   }
 
   handleSubmit(event) {
@@ -103,21 +104,37 @@ class Puzzle extends React.Component {
           console.log("Squares: " + squares)
           const puzzleStr = JSON.stringify(puzzle);
           console.log("Posting Data: ", puzzleStr)
-          this.setState({ loading: true });
           var headers = {
             'Content-Type': 'application/json;charset=UTF-8',
           }
           try{
               axios.post("http://localhost:5000/api/SolvePuzzle", { squares }, {headers: headers})
-              .then(res => {
-                console.log(res.data['__Node__']['path'])
-                let path = res.data['__Node__']['path']
+              .then((res) =>
+               {
+                console.log("Post Received Moves: " + res.data['__Node__']['path']);
+                let path = res.data['__Node__']['path'];
                 for(let i= 0; i < path.length; i++)
                 {
                     this.state.moves.push(path[i]);
                 }
-                this.setState({loading: false});
                 this.setState({display: true});
+              })
+              .catch((error) =>
+              {
+                if(error.response)
+                {
+                    if(error.response.status === 400)
+                    {
+                        alert("Invalid Puzzle Input.")
+                    }
+                    else {
+                        alert("Oops...Something Went Wrong...");
+                    }
+                }
+                if(error.request)
+                {
+                    console.log(error.request);
+                }
               })
           } catch(e) {
             console.log(`Axios Request Failed: ${e}`);
@@ -125,6 +142,7 @@ class Puzzle extends React.Component {
       } else if (this.state.stepNumber <= 8){
         alert("Please Enter All Numbers 0-9 Into the Puzzle")
       }
+      this.setState({loading: false});
   }
 
   jumpTo(step) {
@@ -140,8 +158,8 @@ class Puzzle extends React.Component {
 
     const placements = history.map((step, move) => {
       const desc = move ?
-        'Go to move #' + move :
-        'Go to game start';
+        'Go to input #' + move :
+        'Restart';
       return (
         <li key={move}>
           <button onClick={() => this.jumpTo(move)}>{desc}</button>
@@ -150,8 +168,8 @@ class Puzzle extends React.Component {
     });
 
 
-    let status = this.state.stepNumber > 8 ? "Solving Puzzle: Searching For Solution Using A* Misplaced Tile Hueristic..." : "Enter Tile : " + (this.state.stepNumber);
-    console.log("Moves: " + this.state.moves)
+    let status = this.state.loading ? "Solving Puzzle: Searching For Solution Using A* Misplaced Tile Hueristic..." : this.state.stepNumber < 9 ? "Enter Tile : " + (this.state.stepNumber) : this.state.display ? "Puzzle Solved!" : "Click Submit to Solve The Puzzle!";
+    console.log("Moves Before Return: " + this.state.moves)
     return (
         <div>
           <div className="game">
@@ -167,7 +185,7 @@ class Puzzle extends React.Component {
             </div>
           </div>
           <button onClick={this.handleSubmit}> Submit </button>
-          {console.log("Display:" + this.state.display)}
+          {console.log("display:" + this.state.display)}
           {console.log("moves length:" + this.state.moves.length)}
           {this.state.loading ? <LoadingSpinner />
             : ((this.state.moves.length > 0) && this.state.display) ?
@@ -175,7 +193,7 @@ class Puzzle extends React.Component {
                         <h2> Moves to Solution </h2>
                         <div> {this.state.moves.map((move) => (<li> {move} </li>))} </div>
                     </div>
-                    : <div> Enter A Puzzle </div> }
+                    : <div> </div> }
         </div>
     );
   }
